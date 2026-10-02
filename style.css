@@ -1,0 +1,190 @@
+/* ========================================
+   RESET
+   ======================================== */
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: white;
+}
+
+
+/* ========================================
+   HEADER
+   ======================================== */
+
+.site-header {
+    position: relative;
+    width: 100%;
+}
+
+.site-header > img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+/* ========================================
+   CORPS DU SITE
+   ======================================== */
+
+.body-container {
+    position: relative;
+
+    width: 50%;
+    max-width: 1920px;
+
+    margin: 0 auto;
+}
+
+.body-image {
+    display: block;
+
+    width: 100%;
+    height: auto;
+}
+
+
+/* ========================================
+   GIF
+   ======================================== */
+
+.gif-container {
+    position: relative;
+}
+
+.gif-image {
+    display: block;
+
+    width: 100%;
+    height: auto;
+}
+
+
+/* ========================================
+   BOUTONS
+   ======================================== */
+
+.hotspot {
+    position: absolute;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: red;
+    color: white;
+
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+
+    border: 2px solid black;
+
+    cursor: pointer;
+
+    z-index: 10;
+}
+
+
+/* ========================================
+   BOUTONS DU HEADER
+   ======================================== */
+
+.header-button-1 {
+    left: 2%;
+    top: 5%;
+
+    width: 20%;
+    height: 30%;
+}
+
+
+.header-button-2 {
+    left: 50%;
+    top: 5%;
+
+    width: 20%;
+    height: 30%;
+}
+
+
+.header-button-3 {
+    left: 80%;
+    top: 40%;
+
+    width: 30%;
+    height: 60%;
+}
+
+
+.header-button-4 {
+    left: 24%;
+    top: 5%;
+
+    width: 25%;
+    height: 30%;
+}
+
+
+/* ========================================
+   BOUTONS DU CORPS
+   ======================================== */
+
+.body-button-1 {
+    left: 35%;
+    top: 38.5%;
+
+    width: 30%;
+    height: 2.5%;
+}
+
+
+.body-button-2 {
+    left: 35%;
+    top: 42%;
+
+    width: 30%;
+    height: 2.5%;
+}
+
+
+.body-button-3 {
+    left: 35%;
+    top: 45%;
+
+    width: 30%;
+    height: 2.5%;
+}
+
+
+.body-button-4 {
+    left: 35%;
+    top: 48%;
+
+    width: 30%;
+    height: 2.5%;
+}
+
+
+/* ========================================
+   MOBILE
+   ======================================== */
+
+@media (max-width: 768px) {
+
+    .body-container {
+        width: 100%;
+    }
+
+}
