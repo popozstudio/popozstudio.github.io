@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>POZ Studio - Merch Quote</title>
+
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+
+    <main class="quote-form">
+
+        <h1>MERCH QUOTE</h1>
+
+        <form action="https://api.web3forms.com/submit" method="POST">
+
+            <!-- WEB3FORMS -->
+            <input type="hidden" name="access_key" value="2c0c68a0-6d2b-47e1-a3a8-961e67a6c0bb">
+
+            <input type="hidden" name="subject" value="POZ Studio - New Merch Quote">
+
+            <input type="hidden" name="from_name" value="POZ Studio Website">
+
+            <!-- =========================
+                 CONTACT
+            ========================== -->
+
+            <section>
+
+                <h2>CONTACT</h2>
+
+                <label for="first-name">First name *</label>
+                <input
+                    type="text"
+                    id="first-name"
+                    name="First name"
+                    required
+                >
+
+                <label for="last-name">Last name *</label>
+                <input
+                    type="text"
+                    id="last-name"
+                    name="Last name"
+                    required
+                >
+
+                <label for="company">Company / Brand / Project name</label>
+                <input
+                    type="text"
+                    id="company"
+                    name="Company / Brand / Project name"
+                >
+
+                <label for="phone">Phone</label>
+                <input
+                    type="tel"
+                    id="phone"
+                    name="Phone"
+                >
+
+                <label for="email">Email *</label>
+                <input
+                    type="email"
+                    id="email"
+                    name="Email"
+                    required
+                >
+
+            </section>
+
+
+            <!-- =========================
+                 PROJECT
+            ========================== -->
+
+            <section>
+
+                <h2>PROJECT</h2>
+
+                <label for="project">
+                    What would you like me to create? *
+                </label>
+
+                <textarea
+                    id="project"
+                    name="What would you like me to create?"
+                    placeholder="Tell me about your project, your idea, your brand and what you would like me to create."
+                    required
+                ></textarea>
+
+                <p class="form-help">
+                    Don't have a fully developed idea yet? That's okay.
+                    We can discuss the concept and develop it together.
+                </p>
+
+
+                <label for="artwork-use">
+                    What will the artwork be used for? *
+                </label>
+
+                <select
+                    id="artwork-use"
+                    name="Artwork use"
+                    required
+                >
+                    <option value="" disabled selected>
+                        Select an option
+                    </option>
+
+                    <option>T-shirts / Clothing</option>
+                    <option>Packaging</option>
+                    <option>Fabric / Textile patterns</option>
+                    <option>Posters / Prints</option>
+                    <option>Album / Music artwork</option>
+                    <option>Merchandise for a band or artist</option>
+                    <option>Stickers</option>
+                    <option>Labels</option>
+                    <option>Products / Objects</option>
+                    <option>Social media / Promotional material</option>
+                    <option>Other</option>
+                </select>
+
+
+                <label for="artwork-type">
+                    What type of artwork are you looking for? *
+                </label>
+
+                <select
+                    id="artwork-type"
+                    name="Type of artwork"
+                    required
+                >
+                    <option value="" disabled selected>
+                        Select an option
+                    </option>
+
+                    <option>Illustration</option>
+                    <option>Pattern / Repeating pattern</option>
+                    <option>Character / Mascot</option>
+                    <option>Graphic design</option>
+                    <option>Hand-drawn lettering</option>
+                    <option>Logo / Visual element</option>
+                    <option>Illustration + Typography</option>
+                    <option>Other</option>
+                </select>
+
+
+                <label for="visual-direction">
+                    Do you already have a concept or visual direction?
+                </label>
+
+                <textarea
+                    id="visual-direction"
+                    name="Concept or visual direction"
+                    placeholder="Tell me about the style, colours, mood, references, ideas, etc."
+                ></textarea>
+
+
+                <label for="existing-identity">
+                    Do you already have a logo or existing visual identity?
+                </label>
+
+                <select
+                    id="existing-identity"
+                    name="Existing logo or visual identity"
+                >
+                    <option value="" disabled selected>
+                        Select an option
+                    </option>
+
+                    <option>Yes</option>
+                    <option>No</option>
+                    <option>I'm not sure</option>
+                </select>
+
+                <p class="form-help">
+                    Existing logos, brand guidelines or reference images
+                    can be sent to popoz.studio@gmail.com
+                </p>
+
+
+                <label for="quantity">
+                    How many illustrations / designs do you need? *
+                </label>
+
+                <select
+                    id="quantity"
+                    name="Number of illustrations / designs"
+                    required
+                >
+                    <option value="" disabled selected>
+                        Select an option
+                    </option>
+
+                    <option>One illustration</option>
+                    <option>A small collection</option>
+                    <option>Several designs</option>
+                    <option>An ongoing project</option>
+                    <option>I'm not sure yet</option>
+                </select>
+
+
+                <label for="size-format">
+                    What size / format do you need?
+                </label>
+
+                <input
+                    type="text"
+                    id="size-format"
+                    name="Size / Format"
+                    placeholder="e.g. A4, T-shirt front, square packaging, repeat pattern, etc."
+                >
+
+
+                <label for="production">
+                    Where will the artwork be produced?
+                </label>
+
+                <select
+                    id="production"
+                    name="Production method"
+                >
+                    <option value="" disabled selected>
+                        Select an option
+                    </option>
+
+                    <option>Printed</option>
+                    <option>Embroidered</option>
+                    <option>Screen printed</option>
+                    <option>Digitally printed</option>
+                    <option>I'm not sure</option>
+                    <option>Other</option>
+                </select>
+
+
+                <label for="project-use">
+                    Where will the project be sold or used?
+                </label>
+
+                <select
+                    id="project-use"
+                    name="Where project will be sold or used"
+                >
+                    <option value="" disabled selected>
+                        Select an option
+                    </option>
+
+                    <option>Personal / Private project</option>
+                    <option>Small business</option>
+                    <option>Brand / Commercial product</option>
+                    <option>Music / Artist merchandise</option>
+                    <option>Event / Festival</option>
+                    <option>Other</option>
+                </select>
+
+
+                <label for="usage-rights">
+                    Is this artwork for personal or commercial use? *
+                </label>
+
+                <select
+                    id="usage-rights"
+                    name="Personal or commercial use"
+                    required
+                >
+                    <option value="" disabled selected>
+                        Select an option
+                    </option>
+
+                    <option>Personal use</option>
+                    <option>Commercial use</option>
+                    <option>Both</option>
+                    <option>I'm not sure</option>
+                </select>
+
+
+                <label for="date">
+                    Preferred date / timeframe
+                </label>
+
+                <input
+                    type="text"
+                    id="date"
+                    name="Preferred date / timeframe"
+                    placeholder="e.g. November 2026, as soon as possible, flexible..."
+                >
+
+
+                <label for="budget">
+                    What would your budget be for this project?
+                </label>
+
+                <input
+                    type="text"
+                    id="budget"
+                    name="Budget"
+                    placeholder="If you have a budget in mind, please let me know"
+                >
+
+                <p class="form-help">
+                    Not sure about your budget yet? That's okay.
+                    Based on the information provided above, I can give you
+                    a first estimate and we can discuss the project together.
+                </p>
+
+
+                <label for="additional">
+                    Additional information
+                </label>
+
+                <textarea
+                    id="additional"
+                    name="Additional information"
+                    placeholder="Anything else you would like me to know about your project?"
+                ></textarea>
+
+            </section>
+
+
+            <!-- =========================
+                 FILES / REFERENCES
+            ========================== -->
+
+            <section>
+
+                <h2>FILES &amp; REFERENCES</h2>
+
+                <p>
+                    Reference images, logos, existing artwork, sketches or
+                    other useful files can be sent directly to
+                    <a href="mailto:popoz.studio@gmail.com">
+                        popoz.studio@gmail.com
+                    </a>
+                    either before or after submitting this request.
+                </p>
+
+            </section>
+
+
+            <!-- =========================
+                 SEND
+            ========================== -->
+
+            <section>
+
+                <button type="submit">
+                    SEND QUOTE REQUEST
+                </button>
+
+                <p class="direct-contact">
+                    Prefer to contact me directly?
+                    <a href="mailto:popoz.studio@gmail.com">
+                        popoz.studio@gmail.com
+                    </a>
+                </p>
+
+            </section>
+
+        </form>
+
+    </main>
+
+</body>
+
+</html>

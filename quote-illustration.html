@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>POZ Studio - Illustration Quote</title>
+
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+
+    <main class="quote-form">
+
+        <h1>ILLUSTRATION QUOTE</h1>
+
+        <form action="https://api.web3forms.com/submit" method="POST">
+
+            <!-- WEB3FORMS -->
+            <input type="hidden" name="access_key" value="2c0c68a0-6d2b-47e1-a3a8-961e67a6c0bb">
+
+            <input type="hidden" name="subject" value="POZ Studio - New Illustration Quote">
+
+            <input type="hidden" name="from_name" value="POZ Studio Website">
+
+
+            <!-- =========================
+                 CONTACT
+            ========================== -->
+
+            <section>
+
+                <h2>CONTACT</h2>
+
+                <label for="first-name">First name *</label>
+                <input
+                    type="text"
+                    id="first-name"
+                    name="First name"
+                    required
+                >
+
+                <label for="last-name">Last name *</label>
+                <input
+                    type="text"
+                    id="last-name"
+                    name="Last name"
+                    required
+                >
+
+                <label for="company">Company / Brand name</label>
+                <input
+                    type="text"
+                    id="company"
+                    name="Company / Brand name"
+                >
+
+                <label for="phone">Phone</label>
+                <input
+                    type="tel"
+                    id="phone"
+                    name="Phone"
+                >
+
+                <label for="email">Email *</label>
+                <input
+                    type="email"
+                    id="email"
+                    name="Email"
+                    required
+                >
+
+            </section>
+
+
+            <!-- =========================
+                 PROJECT
+            ========================== -->
+
+            <section>
+
+                <h2>PROJECT</h2>
+
+
+                <label for="project">
+                    What would you like me to illustrate? *
+                </label>
+
+                <textarea
+                    id="project"
+                    name="What would you like me to illustrate?"
+                    placeholder="Tell me about your idea, what you would like me to draw and what the illustration is for."
+                    required
+                ></textarea>
+
+
+                <label for="illustration-type">
+                    What type of illustration are you looking for? *
+                </label>
+
+                <select
+                    id="illustration-type"
+                    name="Type of illustration"
+                    required
+                >
+                    <option value="" disabled selected>
+                        Select an option
+                    </option>
+
+                    <option>Portrait / Caricature</option>
+                    <option>Character</option>
+                    <option>Family / Couple / Friends</option>
+                    <option>Children's illustration</option>
+                    <option>Pet / Animal</option>
+                    <option>Book / Editorial illustration</option>
+                    <option>Poster / Artwork</option>
+                    <option>Advertising illustration</option>
+                    <option>Custom artwork / Personal project</option>
+                    <option>Other</option>
+                </select>
+
+
+                <label for="for-whom">
+                    Who is the illustration for?
+                </label>
+
+                <select
+                    id="for-whom"
+                    name="Who is the illustration for"
+                >
+                    <option value="" disabled selected>
+                        Select an option
+                    </option>
+
+                    <option>Myself</option>
+                    <option>A friend / Family member</option>
+                    <option>A child</option>
+                    <option>A couple</option>
+                    <option>A business / Brand</option>
+                    <option>An event</option>
+                    <option>Other</option>
+                </select>
+
+
+                <label for="artwork-use">
+                    What will the illustration be used for? *
+                </label>
+
+                <select
+                    id="artwork-use"
+                    name="Illustration use"
+                    required
+                >
+                    <option value="" disabled selected>
+                        Select an option
+                    </option>
+
+                    <option>Personal use</option>
+                    <option>Gift</option>
+                    <option>Social media</option>
+                    <option>Print</option>
+                    <option>Poster</option>
+                    <option>Book / Publication</option>
+                    <option>Advertising</option>
+                    <option>Business / Brand</option>
+                    <option>Other</option>
+                </select>
+
+
+                <label for="visual-direction">
+                    Do you already have a specific idea or visual direction?
+                </label>
+
+                <textarea
+                    id="visual-direction"
+                    name="Specific idea or visual direction"
+                    placeholder="Tell me about your idea, colours, mood, characters, setting, references, or anything you already have in mind."
+                ></textarea>
+
+
+                <label for="references">
+                    Do you have any reference images?
+                </label>
+
+                <select
+                    id="references"
+                    name="Reference images"
+                >
+                    <option value="" disabled selected>
+                        Select an option
+                    </option>
+
+                    <option>Yes</option>
+                    <option>No</option>
+                </select>
+
+                <p class="form-help">
+                    You can send reference images, photos, sketches or examples
+                    to popoz.studio@gmail.com.
+                </p>
+
+
+                <label for="quantity">
+                    How many illustrations do you need?
+                </label>
+
+                <select
+                    id="quantity"
+                    name="Number of illustrations"
+                >
+                    <option value="" disabled selected>
+                        Select an option
+                    </option>
+
+                    <option>One illustration</option>
+                    <option>A small series</option>
+                    <option>Several illustrations</option>
+                    <option>Several designs over time</option>
+                    <option>I'm not sure yet</option>
+                </select>
+
+
+                <label for="size-format">
+                    What size / format do you need?
+                </label>
+
+                <input
+                    type="text"
+                    id="size-format"
+                    name="Size / Format"
+                    placeholder="e.g. A4, A3, square, portrait, landscape, digital format, etc."
+                >
+
+
+                <label for="production">
+                    Do you need the illustration digitally or traditionally?
+                </label>
+
+                <select
+                    id="production"
+                    name="Digital or traditional"
+                >
+                    <option value="" disabled selected>
+                        Select an option
+                    </option>
+
+                    <option>Digital</option>
+                    <option>Traditional / Hand-drawn</option>
+                    <option>Both</option>
+                    <option>I'm not sure</option>
+                </select>
+
+
+                <label for="source-file">
+                    Do you need the original artwork / source file?
+                </label>
+
+                <select
+                    id="source-file"
+                    name="Original artwork / source file"
+                >
+                    <option value="" disabled selected>
+                        Select an option
+                    </option>
+
+                    <option>Yes</option>
+                    <option>No</option>
+                    <option>I'm not sure</option>
+                </select>
+
+
+                <label for="usage-rights">
+                    Is the illustration for personal or commercial use? *
+                </label>
+
+                <select
+                    id="usage-rights"
+                    name="Personal or commercial use"
+                    required
+                >
+                    <option value="" disabled selected>
+                        Select an option
+                    </option>
+
+                    <option>Personal use</option>
+                    <option>Commercial use</option>
+                    <option>Both</option>
+                    <option>I'm not sure</option>
+                </select>
+
+
+                <label for="date">
+                    Preferred date / timeframe
+                </label>
+
+                <input
+                    type="text"
+                    id="date"
+                    name="Preferred date / timeframe"
+                    placeholder="e.g. November 2026, as soon as possible, flexible..."
+                >
+
+
+                <label for="budget">
+                    What would your budget be for this project?
+                </label>
+
+                <input
+                    type="text"
+                    id="budget"
+                    name="Budget"
+                    placeholder="If you have a budget in mind, please let me know"
+                >
+
+                <p class="form-help">
+                    Not sure about your budget yet? That's okay.
+                    Based on the information provided above, I can give you
+                    a first estimate and we can discuss the project together.
+                </p>
+
+
+                <label for="additional">
+                    Additional information
+                </label>
+
+                <textarea
+                    id="additional"
+                    name="Additional information"
+                    placeholder="Anything else you would like me to know about your project?"
+                ></textarea>
+
+            </section>
+
+
+            <!-- =========================
+                 FILES & REFERENCES
+            ========================== -->
+
+            <section>
+
+                <h2>FILES &amp; REFERENCES</h2>
+
+                <p>
+                    Photos, sketches, logos, reference images or other useful
+                    files can be sent directly to
+                    <a href="mailto:popoz.studio@gmail.com">
+                        popoz.studio@gmail.com
+                    </a>
+                    either before or after submitting this request.
+                </p>
+
+            </section>
+
+
+            <!-- =========================
+                 SEND
+            ========================== -->
+
+            <section>
+
+                <button type="submit">
+                    SEND QUOTE REQUEST
+                </button>
+
+                <p class="direct-contact">
+                    Prefer to contact me directly?
+                    <a href="mailto:popoz.studio@gmail.com">
+                        popoz.studio@gmail.com
+                    </a>
+                </p>
+
+            </section>
+
+        </form>
+
+    </main>
+
+</body>
+
+</html>
