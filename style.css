@@ -1,0 +1,289 @@
+/* ========================================
+   RESET
+   ======================================== */
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: white;
+}
+
+
+/* ========================================
+   HEADER
+   ======================================== */
+
+.site-header {
+    position: relative;
+    width: 100%;
+}
+
+.site-header > img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+/* ========================================
+   CORPS DU SITE
+   ======================================== */
+
+.body-container {
+    position: relative;
+
+    width: 50%;
+    max-width: 1920px;
+
+    margin: 0 auto;
+}
+
+.body-image {
+    display: block;
+
+    width: 100%;
+    height: auto;
+}
+
+
+/* ========================================
+   GIF
+   ======================================== */
+
+.gif-container {
+    position: relative;
+}
+
+.gif-image {
+    display: block;
+
+    width: 100%;
+    height: auto;
+}
+
+
+/* ========================================
+   BOUTONS
+   ======================================== */
+
+.hotspot {
+    position: absolute;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: transparent;
+    color: transparent;
+
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+
+    border: none;
+outline: none;
+-webkit-tap-highlight-color: transparent;
+
+    cursor: pointer;
+
+    z-index: 10;
+}
+
+
+/* ========================================
+   BOUTONS DU HEADER
+   ======================================== */
+
+.header-button-1 {
+    left: 2%;
+    top: 5%;
+
+    width: 20%;
+    height: 20%;
+}
+
+
+.header-button-2 {
+    left: 55%;
+    top: 5%;
+
+    width: 20%;
+    height: 20%;
+}
+
+
+.header-button-3 {
+    left: 79.5%;
+    top: 27%;
+
+    width: 20%;
+    height: 39%;
+}
+
+
+.header-button-4 {
+    left: 23%;
+    top: 5%;
+
+    width: 31%;
+    height: 20%;
+}
+
+
+.header-button-5 {
+    left: 2%;
+    top: 27%;
+
+    width: 20%;
+    height: 39%;
+}
+
+
+.header-button-6 {
+    left: 9%;
+    top: 70%;
+
+    width: 12.5%;
+    height: 25%;
+}
+
+
+.header-button-7 {
+    left: 21.5%;
+    top: 70%;
+
+    width: 15%;
+    height: 25%;
+}
+
+
+.header-button-8 {
+    left: 36.5%;
+    top: 70%;
+
+    width: 14%;
+    height: 25%;
+}
+
+
+.header-button-9 {
+    left: 50.5%;
+    top: 70%;
+
+    width: 19%;
+    height: 25%;
+}
+
+
+
+.header-button-10 {
+    left: 2%;
+    top: 70%;
+
+    width: 7%;
+    height: 25%;
+}
+
+
+/* ========================================
+   BOUTONS DU CORPS
+   ======================================== */
+
+.body-button-1 {
+    left: 35%;
+    top: 37%;
+
+    width: 32%;
+    height: 2.5%;
+}
+
+
+.body-button-2 {
+    left: 35%;
+    top: 40.3%;
+
+    width: 32%;
+    height: 2.5%;
+}
+
+
+.body-button-3 {
+    left: 35%;
+    top: 43.6%;
+
+    width: 32%;
+    height: 2.5%;
+}
+
+
+.body-button-4 {
+    left: 35%;
+    top: 46.8%;
+
+    width: 32%;
+    height: 2.5%;
+}
+
+.body-button-11 {
+    left: 25%;
+    top: 15%;
+
+    width: 50%;
+    height: 10%;
+}
+
+
+.body-button-12 {
+    left: 25%;
+    top: 30%;
+
+    width: 50%;
+    height: 10%;
+}
+
+
+.body-button-13 {
+    left: 25%;
+    top: 46%;
+
+    width: 50%;
+    height: 10%;
+}
+
+
+.body-button-14 {
+    left: 25%;
+    top: 60%;
+
+    width: 50%;
+    height: 10%;
+}
+
+.body-button-15 {
+    left: 25%;
+    top: 74%;
+
+    width: 50%;
+    height: 10%;
+}
+
+/* ========================================
+   MOBILE
+   ======================================== */
+
+@media (max-width: 768px) {
+
+    .body-container {
+        width: 100%;
+    }
+
+}

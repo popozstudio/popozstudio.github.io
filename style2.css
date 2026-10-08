@@ -1,0 +1,263 @@
+/* ================================
+   POZ STUDIO - QUOTE FORMS
+   ================================ */
+
+.quote-form {
+    max-width: 850px;
+    margin: 60px auto;
+    padding: 40px;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+
+    color: #4A4A4A;
+}
+
+
+/* ================================
+   MAIN TITLE
+   ================================ */
+
+.quote-form h1 {
+    font-size: 42px;
+    margin-bottom: 50px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #7A263A;
+}
+
+
+/* ================================
+   SECTIONS
+   ================================ */
+
+.quote-form section {
+    margin-bottom: 55px;
+}
+
+
+/* ================================
+   SECTION TITLES
+   ================================ */
+
+.quote-form h2 {
+    font-size: 24px;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    color: #7A263A;
+}
+
+
+/* ================================
+   LABELS / QUESTIONS
+   ================================ */
+
+.quote-form label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 8px;
+    margin-top: 25px;
+    color: #4A4A4A;
+}
+
+
+/* ================================
+   INPUTS / TEXTAREA / SELECT
+   ================================ */
+
+.quote-form input,
+.quote-form textarea,
+.quote-form select {
+    width: 100%;
+    box-sizing: border-box;
+
+    padding: 14px 16px;
+
+    font-family: inherit;
+    font-size: 16px;
+
+    /* Answers entered by the visitor */
+    color: #7A263A;
+
+    border: 1px solid #555555;
+
+    background: white;
+
+    border-radius: 0;
+}
+
+
+/* ================================
+   PLACEHOLDER
+   ================================ */
+
+.quote-form input::placeholder,
+.quote-form textarea::placeholder {
+    color: #888888;
+    opacity: 1;
+}
+
+
+/* ================================
+   SELECT OPTIONS
+   ================================ */
+
+.quote-form select option {
+    color: #7A263A;
+}
+
+
+/* ================================
+   TEXTAREAS
+   ================================ */
+
+.quote-form textarea {
+    resize: vertical;
+    min-height: 140px;
+}
+
+
+/* ================================
+   FOCUS
+   ================================ */
+
+.quote-form input:focus,
+.quote-form textarea:focus,
+.quote-form select:focus {
+    outline: none;
+    border: 2px solid #7A263A;
+}
+
+
+/* ================================
+   HELP TEXT
+   ================================ */
+
+.form-help {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-top: 10px;
+    max-width: 700px;
+
+    color: #666666;
+}
+
+
+/* ================================
+   DIMENSIONS
+   ================================ */
+
+.dimensions {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+
+/* ================================
+   GENERAL PARAGRAPHS
+   ================================ */
+
+.quote-form section p {
+    line-height: 1.6;
+    color: #555555;
+}
+
+
+/* ================================
+   LINKS
+   ================================ */
+
+.quote-form a {
+    color: #7A263A;
+    text-decoration: underline;
+}
+
+
+/* ================================
+   SUBMIT BUTTON
+   ================================ */
+
+.quote-form button {
+    display: block;
+
+    width: 100%;
+
+    padding: 18px;
+
+    margin-top: 20px;
+
+    font-family: inherit;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+
+    background: #7A263A;
+    color: white;
+
+    border: none;
+    border-radius: 0;
+
+    cursor: pointer;
+}
+
+
+/* ================================
+   BUTTON HOVER
+   ================================ */
+
+.quote-form button:hover {
+    opacity: 0.8;
+}
+
+
+/* ================================
+   DIRECT CONTACT
+   ================================ */
+
+.direct-contact {
+    text-align: center;
+
+    margin-top: 35px;
+
+    font-size: 14px;
+
+    color: #666666;
+}
+
+
+/* ================================
+   PHONE
+   ================================ */
+
+@media (max-width: 600px) {
+
+    .quote-form {
+        margin: 25px auto;
+        padding: 25px 20px;
+    }
+
+
+    .quote-form h1 {
+        font-size: 32px;
+        margin-bottom: 40px;
+    }
+
+
+    .quote-form h2 {
+        font-size: 21px;
+    }
+
+
+    .dimensions {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+
+
+    .quote-form input,
+    .quote-form textarea,
+    .quote-form select {
+        font-size: 16px;
+    }
+
+}

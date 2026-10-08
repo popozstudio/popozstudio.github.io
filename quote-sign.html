@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Quote Sign | POZ Studio</title>
+
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+
+    <main class="quote-form">
+
+        <h1>SIGN QUOTE</h1>
+
+        <form action="https://api.web3forms.com/submit" method="POST">
+
+            <!-- Web3Forms -->
+            <input type="hidden" name="access_key" value="2c0c68a0-6d2b-47e1-a3a8-961e67a6c0bb">
+
+            <input type="hidden" name="subject" value="POZ Studio - New Sign Quote">
+
+            <input type="hidden" name="from_name" value="POZ Studio Website">
+
+
+            <!-- CONTACT -->
+
+            <section>
+
+                <h2>CONTACT</h2>
+
+                <label for="first-name">First name</label>
+
+                <input
+                    type="text"
+                    id="first-name"
+                    name="First name"
+                    required
+                >
+
+
+                <label for="last-name">Last name</label>
+
+                <input
+                    type="text"
+                    id="last-name"
+                    name="Last name"
+                    required
+                >
+
+
+                <label for="company">Company / Business name</label>
+
+                <input
+                    type="text"
+                    id="company"
+                    name="Company / Business name"
+                >
+
+
+                <label for="phone">Phone</label>
+
+                <input
+                    type="tel"
+                    id="phone"
+                    name="Phone"
+                    required
+                >
+
+
+                <label for="email">Email</label>
+
+                <input
+                    type="email"
+                    id="email"
+                    name="Email"
+                    required
+                >
+
+            </section>
+
+
+            <!-- PROJECT -->
+
+            <section>
+
+                <h2>PROJECT</h2>
+
+
+                <!-- SIGN IDEA -->
+
+                <label for="sign-idea">
+                    What would you like your sign to look like?
+                </label>
+
+                <textarea
+                    id="sign-idea"
+                    name="Sign idea"
+                    rows="6"
+                    placeholder="Tell me about your business, the style you are looking for, colours, text, ideas, etc."
+                    required
+                ></textarea>
+
+                <p class="form-help">
+                    Don't have a specific design in mind yet? That's absolutely fine.
+                    I can help develop the concept and create a design proposal for you.
+                </p>
+
+
+                <!-- SIGN TEXT -->
+
+                <label for="sign-text">
+                    What text should appear on the sign?
+                </label>
+
+                <input
+                    type="text"
+                    id="sign-text"
+                    name="Text on sign"
+                    placeholder="e.g. business name, slogan, opening hours, etc."
+                >
+
+
+                <!-- LOGO -->
+
+                <label for="logo">
+                    Do you already have a logo or existing artwork?
+                </label>
+
+                <select
+                    id="logo"
+                    name="Existing logo or artwork"
+                >
+
+                    <option value="">
+                        Please select
+                    </option>
+
+                    <option value="Yes">
+                        Yes
+                    </option>
+
+                    <option value="No">
+                        No
+                    </option>
+
+                    <option value="I'm not sure">
+                        I'm not sure
+                    </option>
+
+                </select>
+
+                <p class="form-help">
+                    If you have a logo or existing artwork, you can send it to
+                    popoz.studio@gmail.com.
+                </p>
+
+
+                <!-- SIGN TYPE -->
+
+                <label for="sign-type">
+                    What type of sign are you looking for?
+                </label>
+
+                <select
+                    id="sign-type"
+                    name="Sign type"
+                >
+
+                    <option value="">
+                        Please select
+                    </option>
+
+                    <option value="Shop / business sign">
+                        Shop / business sign
+                    </option>
+
+                    <option value="Hand-painted sign">
+                        Hand-painted sign
+                    </option>
+
+                    <option value="Wall sign">
+                        Wall sign
+                    </option>
+
+                    <option value="Window sign">
+                        Window sign
+                    </option>
+
+                    <option value="Menu / board">
+                        Menu / board
+                    </option>
+
+                    <option value="Other">
+                        Other
+                    </option>
+
+                </select>
+
+
+                <!-- SIZE -->
+
+                <label>
+                    Sign dimensions
+                </label>
+
+                <div class="dimensions">
+
+                    <div>
+
+                        <label for="width">
+                            Width (m)
+                        </label>
+
+                        <input
+                            type="text"
+                            id="width"
+                            name="Sign width"
+                            placeholder="e.g. 2 m"
+                        >
+
+                    </div>
+
+
+                    <div>
+
+                        <label for="height">
+                            Height (m)
+                        </label>
+
+                        <input
+                            type="text"
+                            id="height"
+                            name="Sign height"
+                            placeholder="e.g. 0.8 m"
+                        >
+
+                    </div>
+
+                </div>
+
+
+                <!-- LOCATION -->
+
+                <label for="location">
+                    Location / City
+                </label>
+
+                <input
+                    type="text"
+                    id="location"
+                    name="Location / City"
+                    required
+                >
+
+
+                <!-- INDOOR / OUTDOOR -->
+
+                <label for="environment">
+                    Is the sign indoor or outdoor?
+                </label>
+
+                <select
+                    id="environment"
+                    name="Indoor or Outdoor"
+                    required
+                >
+
+                    <option value="">
+                        Please select
+                    </option>
+
+                    <option value="Indoor">
+                        Indoor
+                    </option>
+
+                    <option value="Outdoor">
+                        Outdoor
+                    </option>
+
+                </select>
+
+
+                <!-- SURFACE / MATERIAL -->
+
+                <label for="surface">
+                    What surface or material will the sign be painted on?
+                </label>
+
+                <input
+                    type="text"
+                    id="surface"
+                    name="Surface or material"
+                    placeholder="e.g. wall, wood, metal, glass, board, etc."
+                >
+
+
+                <!-- SURFACE CONDITION -->
+
+                <label for="surface-condition">
+                    Is the surface clean and ready to paint?
+                </label>
+
+                <select
+                    id="surface-condition"
+                    name="Surface condition"
+                >
+
+                    <option value="">
+                        Please select
+                    </option>
+
+                    <option value="Yes">
+                        Yes
+                    </option>
+
+                    <option value="No">
+                        No
+                    </option>
+
+                    <option value="I'm not sure">
+                        I'm not sure
+                    </option>
+
+                </select>
+
+
+                <!-- ACCESSIBILITY -->
+
+                <label for="accessibility">
+                    Is the sign location easily accessible?
+                </label>
+
+                <select
+                    id="accessibility"
+                    name="Accessibility"
+                >
+
+                    <option value="">
+                        Please select
+                    </option>
+
+                    <option value="Easy access">
+                        Easy access
+                    </option>
+
+                    <option value="Ladder needed">
+                        Ladder needed
+                    </option>
+
+                    <option value="Scaffolding or lift may be needed">
+                        Scaffolding or lift may be needed
+                    </option>
+
+                    <option value="I'm not sure">
+                        I'm not sure
+                    </option>
+
+                </select>
+
+
+                <!-- DATE -->
+
+                <label for="date">
+                    Preferred date / timeframe
+                </label>
+
+                <input
+                    type="text"
+                    id="date"
+                    name="Preferred date / timeframe"
+                    placeholder="e.g. November 2026"
+                >
+
+
+                <!-- BUDGET -->
+
+                <label for="budget">
+                    What would be your budget for this project?
+                </label>
+
+                <input
+                    type="text"
+                    id="budget"
+                    name="Budget"
+                    placeholder="If you have a budget in mind, please let me know"
+                >
+
+                <p class="form-help">
+                    Not sure about your budget yet? That's okay.
+                    Based on the information provided above, I can give you
+                    a first estimate and we can discuss the project together.
+                </p>
+
+
+                <!-- ADDITIONAL INFORMATION -->
+
+                <label for="additional-info">
+                    Additional information
+                </label>
+
+                <textarea
+                    id="additional-info"
+                    name="Additional information"
+                    rows="5"
+                    placeholder="Anything else you would like me to know about your project?"
+                ></textarea>
+
+            </section>
+
+
+            <!-- PHOTOS -->
+
+            <section>
+
+                <h2>PHOTOS</h2>
+
+                <p>
+                    Photos of the sign location and surrounding space are very helpful
+                    for preparing an accurate quote.
+                </p>
+
+                <p>
+                    Please send your photos directly to
+                    <a href="mailto:popoz.studio@gmail.com">
+                        popoz.studio@gmail.com
+                    </a>
+                    either before or after submitting this request.
+                </p>
+
+                <p>
+                    If you already have a logo, artwork or reference images,
+                    you can send those by email too.
+                </p>
+
+            </section>
+
+
+            <!-- SEND -->
+
+            <button type="submit">
+                SEND QUOTE REQUEST
+            </button>
+
+        </form>
+
+
+        <!-- DIRECT CONTACT -->
+
+        <p class="direct-contact">
+
+            Prefer to contact me directly?
+
+            <a href="mailto:popoz.studio@gmail.com">
+                popoz.studio@gmail.com
+            </a>
+
+        </p>
+
+
+    </main>
+
+</body>
+
+</html>
