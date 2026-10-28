@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Quote Mural | POZ Studio</title>
+
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+
+    <main class="quote-form">
+
+        <h1>MURAL QUOTE</h1>
+
+        <form action="https://api.web3forms.com/submit" method="POST">
+
+            <!-- Web3Forms -->
+            <input type="hidden" name="access_key" value="2c0c68a0-6d2b-47e1-a3a8-961e67a6c0bb">
+
+            <input type="hidden" name="subject" value="POZ Studio - New Mural Quote">
+
+            <input type="hidden" name="from_name" value="POZ Studio Website">
+
+
+            <!-- CONTACT -->
+
+            <section>
+
+                <h2>CONTACT</h2>
+
+                <label for="first-name">First name</label>
+
+                <input
+                    type="text"
+                    id="first-name"
+                    name="First name"
+                    required
+                >
+
+
+                <label for="last-name">Last name</label>
+
+                <input
+                    type="text"
+                    id="last-name"
+                    name="Last name"
+                    required
+                >
+
+
+                <label for="company">Company / Business name</label>
+
+                <input
+                    type="text"
+                    id="company"
+                    name="Company / Business name"
+                >
+
+
+                <label for="phone">Phone</label>
+
+                <input
+                    type="tel"
+                    id="phone"
+                    name="Phone"
+                    required
+                >
+
+
+                <label for="email">Email</label>
+
+                <input
+                    type="email"
+                    id="email"
+                    name="Email"
+                    required
+                >
+
+            </section>
+
+
+            <!-- PROJECT -->
+
+            <section>
+
+                <h2>PROJECT</h2>
+
+
+                <!-- MURAL IDEA -->
+
+                <label for="mural-idea">
+                    What would you like the mural to represent?
+                </label>
+
+                <textarea
+                    id="mural-idea"
+                    name="Mural idea"
+                    rows="6"
+                    placeholder="Tell me about your idea, theme, colours, style, etc."
+                    required
+                ></textarea>
+
+                <p class="form-help">
+                    Don't have a specific idea yet? That's absolutely fine.
+                    I can help develop the concept and submit a design proposal for you.
+                </p>
+
+
+                <!-- DATE -->
+
+                <label for="date">
+                    Preferred date / timeframe
+                </label>
+
+                <input
+                    type="text"
+                    id="date"
+                    name="Preferred date / timeframe"
+                    placeholder="e.g. November 2026"
+                >
+
+
+                <!-- DIMENSIONS -->
+
+                <label>
+                    Wall dimensions
+                </label>
+
+                <div class="dimensions">
+
+                    <div>
+
+                        <label for="length">
+                            Length / Width (m)
+                        </label>
+
+                        <input
+                            type="text"
+                            id="length"
+                            name="Wall length / width"
+                            placeholder="e.g. 5 m"
+                        >
+
+                    </div>
+
+
+                    <div>
+
+                        <label for="height">
+                            Height (m)
+                        </label>
+
+                        <input
+                            type="text"
+                            id="height"
+                            name="Wall height"
+                            placeholder="e.g. 2.5 m"
+                        >
+
+                    </div>
+
+                </div>
+
+
+                <!-- LOCATION -->
+
+                <label for="location">
+                    Location / City
+                </label>
+
+                <input
+                    type="text"
+                    id="location"
+                    name="Location / City"
+                    required
+                >
+
+
+                <!-- INDOOR / OUTDOOR -->
+
+                <label for="environment">
+                    Is the mural indoor or outdoor?
+                </label>
+
+                <select
+                    id="environment"
+                    name="Indoor or Outdoor"
+                    required
+                >
+
+                    <option value="">
+                        Please select
+                    </option>
+
+                    <option value="Indoor">
+                        Indoor
+                    </option>
+
+                    <option value="Outdoor">
+                        Outdoor
+                    </option>
+
+                </select>
+
+
+                <!-- SURFACE TYPE -->
+
+                <label for="surface-type">
+                    What type of surface will the mural be painted on?
+                </label>
+
+                <input
+                    type="text"
+                    id="surface-type"
+                    name="Surface type"
+                    placeholder="e.g. painted wall, concrete, brick, wood, fence, etc."
+                >
+
+
+                <!-- WALL CONDITION -->
+
+                <label for="wall-ready">
+                    Is the wall clean and ready to paint?
+                </label>
+
+                <select
+                    id="wall-ready"
+                    name="Is the wall clean and ready to paint?"
+                    required
+                >
+
+                    <option value="">
+                        Please select
+                    </option>
+
+                    <option value="Yes">
+                        Yes
+                    </option>
+
+                    <option value="No">
+                        No
+                    </option>
+
+                    <option value="I'm not sure">
+                        I'm not sure
+                    </option>
+
+                </select>
+
+
+                <!-- SURFACE ISSUES -->
+
+                <label for="surface-issues">
+                    Does the surface have any damage or particular issues?
+                </label>
+
+                <textarea
+                    id="surface-issues"
+                    name="Surface damage or issues"
+                    rows="4"
+                    placeholder="e.g. cracks, holes, peeling paint, mould, rough surface, etc."
+                ></textarea>
+
+
+                <!-- ACCESSIBILITY -->
+
+                <label for="accessibility">
+                    Is the wall easily accessible?
+                </label>
+
+                <select
+                    id="accessibility"
+                    name="Wall accessibility"
+                >
+
+                    <option value="">
+                        Please select
+                    </option>
+
+                    <option value="Easy access">
+                        Easy access
+                    </option>
+
+                    <option value="Ladder needed">
+                        Ladder needed
+                    </option>
+
+                    <option value="Scaffolding or lift may be needed">
+                        Scaffolding or lift may be needed
+                    </option>
+
+                    <option value="I'm not sure">
+                        I'm not sure
+                    </option>
+
+                </select>
+
+                <p class="form-help">
+                    Please mention if ladders, scaffolding, a lift or other equipment
+                    may be required.
+                </p>
+
+
+                <!-- LOGOS / EXISTING ARTWORK -->
+
+                <label for="existing-artwork">
+                    Would you like any logos, text or characters included in the mural?
+                </label>
+
+                <textarea
+                    id="existing-artwork"
+                    name="Logos, text or existing artwork"
+                    rows="4"
+                    placeholder="Please provide more details if applicable."
+                ></textarea>
+
+                <p class="form-help">
+                    Relevant files can be sent directly to
+                    popoz.studio@gmail.com
+                </p>
+
+
+                <!-- MURAL FOR -->
+
+                <label for="mural-for">
+                    Who is the mural for?
+                </label>
+
+                <select
+                    id="mural-for"
+                    name="Who is the mural for?"
+                >
+
+                    <option value="">
+                        Please select
+                    </option>
+
+                    <option value="Private home">
+                        Private home
+                    </option>
+
+                    <option value="Business">
+                        Business
+                    </option>
+
+                    <option value="Hospitality venue">
+                        Hospitality venue
+                    </option>
+
+                    <option value="Public space">
+                        Public space
+                    </option>
+
+                    <option value="Other">
+                        Other
+                    </option>
+
+                </select>
+
+
+                <!-- BUDGET -->
+
+                <label for="budget">
+                    What would be your budget for this project?
+                </label>
+
+                <input
+                    type="text"
+                    id="budget"
+                    name="Budget"
+                    placeholder="If you have a budget in mind, please let me know"
+                >
+
+                <p class="form-help">
+                    Not sure about your budget yet? That's okay.
+                    Based on the information provided above, I can give you
+                    a first estimate and we can discuss the project together.
+                </p>
+
+
+                <!-- ADDITIONAL INFORMATION -->
+
+                <label for="additional-info">
+                    Additional information
+                </label>
+
+                <textarea
+                    id="additional-info"
+                    name="Additional information"
+                    rows="5"
+                    placeholder="Anything else you would like me to know about your project?"
+                ></textarea>
+
+            </section>
+
+
+            <!-- PHOTOS -->
+
+            <section>
+
+                <h2>PHOTOS</h2>
+
+                <p>
+                    Photos of the wall and surrounding space are very helpful
+                    for preparing an accurate quote.
+                </p>
+
+                <p>
+                    Please send your photos directly to
+                    <a href="mailto:popoz.studio@gmail.com">
+                        popoz.studio@gmail.com
+                    </a>
+                    either before or after submitting this request.
+                </p>
+
+            </section>
+
+
+            <!-- SEND -->
+
+            <button type="submit">
+                SEND QUOTE REQUEST
+            </button>
+
+        </form>
+
+
+        <!-- DIRECT CONTACT -->
+
+        <p class="direct-contact">
+
+            Prefer to contact me directly?
+
+            <a href="mailto:popoz.studio@gmail.com">
+                popoz.studio@gmail.com
+            </a>
+
+        </p>
+
+
+    </main>
+
+</body>
+
+</html>
